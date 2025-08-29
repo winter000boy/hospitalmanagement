@@ -1,5 +1,4 @@
-package com.hospitalmanagement.hospitalmanagement.models;
-
+package com.hospitalmanagement.models;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -17,12 +16,12 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class Doctor {
+public class Bill {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long doctorId;
-    private String name;
-    private String speciality;
-    private int experience;
+    private Long id;
+    private Long patientId;
+    private double billAmount;
+    private String Status;
 
 }

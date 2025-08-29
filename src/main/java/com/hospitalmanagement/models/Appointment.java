@@ -1,4 +1,4 @@
-package com.hospitalmanagement.hospitalmanagement.models;
+package com.hospitalmanagement.models;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
