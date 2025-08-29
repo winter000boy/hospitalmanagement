@@ -1,0 +1,16 @@
+Hospital Management System :
+
+    Features & Funtionality :
+        * Patient Profile Management : System allows management of patients profile, including their personal information, medical History, and current treatment plans
+
+        *Doctor Profile Management : System allows management of Doctor profile, including their personal information, qualification and specialities
+
+        *Appointment Scheduling : System allows scheduling and rescheduling of Appointments, with automated notifications to both patients and Doctors
+
+        *Billing and Payment Management : System allows management of biiling and payments
+
+    API Calls  for Hospital Management :
+        * For Patients : POST ,GET, /patient, GET /patient/id, PUT /patient/id, DELETE /patient/id
+        * For Doctorss : POST ,GET, /doctor, GET /doctor/id, PUT /doctor/id, DELETE /doctor/id
+        * For Appointment : POST ,GET, /appointment, GET /appontment/id, PUT /appointment/id, DELETE /appointment/id
+        * For Billing : POST ,GET, /bill, GET /bill/id, PUT /bill/id
