@@ -47,13 +47,13 @@ public class PatientController {
     }
 
     @DeleteMapping("/{id}")
-    public void deletePatient(@PathVariable Long id){
+    public void deletePatient(@PathVariable Long id) {
         patientService.deletePatient(id);
     }
 
     @PutMapping("/{id}")
     public Patient updatePatient(@PathVariable Long id, @RequestBody Patient patient) {
-        return patientService.updatePatient(id);
+        return patientService.updatePatient(id, patient);
     }
 
 }

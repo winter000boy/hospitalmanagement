@@ -11,9 +11,10 @@ import com.hospitalmanagement.repository.PatientRepository;
 
 @Service
 public class PatientService {
-    
+
     @Autowired
     private PatientRepository patientRepository;
+
     public List<Patient> getAllPatients() {
         try {
             System.out.println("Into the Service Layer !");
